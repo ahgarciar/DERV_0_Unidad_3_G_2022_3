@@ -31,7 +31,7 @@ public class Mouse_MoverCamara : MonoBehaviour
         //Debug.Log("Y: [" + valY + " -- "+ valY_conVelocidad+ "]");
 
 
-        anguloX -= valY_conVelocidad;
+        anguloX -= valY_conVelocidad;//invert axis
         
         anguloX = Mathf.Clamp(anguloX,-45f, 45f);
         //Debug.Log("Angulo Y: " + anguloX);

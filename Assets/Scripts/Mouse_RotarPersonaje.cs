@@ -21,7 +21,7 @@ public class Mouse_RotarPersonaje : MonoBehaviour
        
         float valX = Input.GetAxis("Mouse X");
 
-        float valX_conVelocidad = valX * velocidad;  //* Time.deltaTime; //conviene? 
+        float valX_conVelocidad = valX * velocidad; // * Time.deltaTime; //conviene? 
 
         //Debug.Log("X: [" + valX + " -- "+ valX_conVelocidad+ "]");
 

@@ -16,7 +16,7 @@ public class DispararBala : MonoBehaviour
 
     private void Awake()
     {
-        Bala_a_Instanciar = Resources.Load("Prefabs/Bala") as GameObject;
+        Bala_a_Instanciar = Resources.Load("Prefabs/Bala 1") as GameObject;
 
         Lugar_a_Spawnear = GameObject.Find("SpawnBala");
     }
