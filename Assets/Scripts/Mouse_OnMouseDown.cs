@@ -22,4 +22,19 @@ public class Mouse_OnMouseDown : MonoBehaviour
         Debug.Log("Se hizo un click en: " + gameObject.name);
     }
 
+    private void OnMouseExit()
+    {
+        
+    }
+
+    private void OnMouseUp()
+    {
+        
+    }
+
+    private void OnMouseOver()
+    {
+        
+    }
+
 }
